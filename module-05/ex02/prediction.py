@@ -14,7 +14,7 @@ def simple_predict(x, theta):
 	"""
 	if not isinstance(x, (np.ndarray, np.generic)) or not isinstance(theta, (np.ndarray, np.generic)):
 		return None
-	if not theta.shape != (2, 1) or not x.size or not theta.size:
+	if not x.size or not theta.size:
 		return None
 	return np.array([float(theta[0] + theta[1] * item) for item in x])
 
