@@ -14,7 +14,7 @@ def plot(x, y, theta):
 	"""
 	# Too lazy for error management
 	plt.plot(x, y, 'o')
-	plt.plot(theta)
+	plt.plot(x, theta[1] * x + theta[0])
 	plt.show()
 
 if __name__ == "__main__":
@@ -24,6 +24,6 @@ if __name__ == "__main__":
 	theta2 = np.array([[-1.5],[2]])
 	theta3 = np.array([[3],[0.3]])
 
-	plot(x, y, theta1)
+	# plot(x, y, theta1)
 	# plot(x, y, theta2)
 	# plot(x, y, theta3)
