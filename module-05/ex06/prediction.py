@@ -20,7 +20,6 @@ def predict_(x, theta):
 		return None
 	return np.array(add_intercept(x) @ theta)
 
-
 if __name__ == "__main__":
 	x = np.arange(1,6)
 

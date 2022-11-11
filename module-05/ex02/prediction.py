@@ -16,8 +16,7 @@ def simple_predict(x, theta):
 		return None
 	if not x.size or not theta.size:
 		return None
-	return np.array([float(theta[0] + theta[1] * item) for item in x])
-
+	return (theta[1] * x + theta[0]).astype(float)
 
 if __name__ == "__main__":
 	x = np.arange(1,6)

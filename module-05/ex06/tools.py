@@ -16,7 +16,7 @@ def add_intercept(x):
 	if not x.size:
 		return None
 	if x.ndim == 1:
-		x = x[:, np.newaxis]
+		x = x[:,np.newaxis]
 	ones = np.ones((len(x), 1))
 	return np.hstack((ones, x))
 

@@ -24,6 +24,6 @@ if __name__ == "__main__":
 	theta2 = np.array([[-1.5],[2]])
 	theta3 = np.array([[3],[0.3]])
 
-	# plot(x, y, theta1)
+	plot(x, y, theta1)
 	# plot(x, y, theta2)
 	# plot(x, y, theta3)
