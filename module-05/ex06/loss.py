@@ -16,7 +16,7 @@ def loss_elem_(y, y_hat):
 	This function should not raise any Exception.
 	"""
 	# Too lazy for error management
-	return ((y_hat - y) ** 2)
+	return (y_hat - y) ** 2
 
 def loss_(y, y_hat):
 	"""
@@ -67,10 +67,10 @@ if __name__ == "__main__":
 	# Output:
 	# 4.238750000000004
 
-	x3 = np.array([0, 15, -9, 7, 12, 3, -21])
+	x3 = np.array([[0], [15], [-9], [7], [12], [3], [-21]])
 	theta3 = np.array([[0.], [1.]])
 	y_hat3 = predict_(x3, theta3)
-	y3 = np.array([2, 14, -13, 5, 12, 4, -19])
+	y3 = np.array([[2], [14], [-13], [5], [12], [4], [-19]])
 
 	# Example 5:
 	print(loss_(y3, y_hat3))
