@@ -16,7 +16,7 @@ def loss_(y, y_hat):
 	return np.average((y_hat - y) ** 2) / 2
 
 if __name__ == "__main__":
-	X = np.array([0, 15, -9, 7, 12, 3, -21])
-	Y = np.array([2, 14, -13, 5, 12, 4, -19])
+	X = np.array([[0], [15], [-9], [7], [12], [3], [-21]])
+	Y = np.array([[2], [14], [-13], [5], [12], [4], [-19]])
 	print(loss_(X, Y))
 	print(loss_(X, X))
