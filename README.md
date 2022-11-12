@@ -2,7 +2,7 @@
 
 Basic exercises to understand how linear algebra and statistics can help us perform machine learning.
 
-##  Module 05
+## Module 05
 
 Get started with some linear algebra and statistics formulas
 
@@ -13,7 +13,7 @@ Get started with some linear algebra and statistics formulas
 ### Loss function model
 <img src="https://raw.githubusercontent.com/julien-ctx/42_machine_learning_bootcamp/master/assets/loss_function_model.png">
 
-## Module06
+## Module 06
 
 > Implement a method to improve our model's performance: gradient descent, and discover the notion of normalization
 >
