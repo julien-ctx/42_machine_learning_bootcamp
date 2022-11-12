@@ -10,6 +10,8 @@ Get started with some linear algebra and statistics formulas
 >
 > Hypothesis, model, regression, loss function.
 
+![alt text](https://github.com/julien-ctx/42_machine_learning_bootcamp/tree/master/assets/loss_function_model.png?raw=true)
+
 ## Module06
 
 > Implement a method to improve our model's performance: gradient descent, and discover the notion of normalization
