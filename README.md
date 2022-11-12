@@ -10,7 +10,7 @@ Get started with some linear algebra and statistics formulas
 >
 > Hypothesis, model, regression, loss function.
 
-![alt text](https://github.com/julien-ctx/42_machine_learning_bootcamp/tree/master/assets/loss_function_model.png?raw=true)
+![alt text]([https://github.com/julien-ctx/42_machine_learning_bootcamp/tree/master/assets/loss_function_model.png](https://raw.githubusercontent.com/julien-ctx/42_machine_learning_bootcamp/master/assets/loss_function_model.png))
 
 ## Module06
 
