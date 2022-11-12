@@ -1,4 +1,4 @@
-# 42_machine_learning_bootcamp
+# 42 Machine Learning Bootcamp
 
 Basic exercises to understand how linear algebra and statistics can help us perform machine learning.
 
