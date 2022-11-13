@@ -1,6 +1,6 @@
 import numpy as np
 from prediction import predict_
-from gradient import simple_gradient
+from vec_gradient import gradient
 
 def fit_(x, y, theta, alpha, max_iter):
 	"""
@@ -19,9 +19,8 @@ def fit_(x, y, theta, alpha, max_iter):
 	This function should not raise any Exception.
 	"""
 	for i in range(max_iter):
-		theta[0] = theta[0] - alpha * simple_gradient(x, y, theta)[0]
-		theta[1] = theta[1] - alpha * simple_gradient(x, y, theta)[1]
-	return np.array([theta[0], theta[1]])
+		theta = theta - alpha * gradient(x, y, theta)
+	return theta
 
 if __name__ == "__main__":
 	x = np.array([[12.4956442], [21.5007972], [31.5527382], [48.9145838], [57.5088733]])
@@ -30,7 +29,6 @@ if __name__ == "__main__":
 	# Example 0:
 	theta1 = fit_(x, y, theta, alpha=5e-8, max_iter=1500000)
 	print(theta1)
-	exit()
 	# Output:
 	# array([[1.40709365],
 	# [1.1150909 ]])
